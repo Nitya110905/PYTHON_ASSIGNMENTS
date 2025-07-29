@@ -1,3 +1,5 @@
+# Write a Python program to get the Factorial number of given 
+# number.
 n  = int(input("Enter the no. for its factorial :"))
 
 def fact(n):
