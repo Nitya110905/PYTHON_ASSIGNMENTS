@@ -1,0 +1,2 @@
+What is the purpose continue statement in python?
+- continue is typically used when you have a condition where you want to exclude certain items or scenarios from processing within a loop, but you still want the loop to proceed with other items.
