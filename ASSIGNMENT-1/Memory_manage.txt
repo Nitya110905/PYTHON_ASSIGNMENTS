@@ -1,0 +1,15 @@
+How memory is managed in Python?
+- Python's memory management is largely automatic, handling allocation and deallocation of objects for you. This is achieved through a combination of mechanisms:
+
+Private Heap: All Python objects and data structures reside in a private heap managed by the Python interpreter. Variables in Python hold references to these objects, not the objects themselves.
+
+
+Reference Counting: This is the primary mechanism. Each object has a count of how many references (variables, container elements, etc.) point to it. When an object's reference count drops to zero, it means no part of the program can access it anymore, and Python immediately deallocates that object's memory.
+
+Garbage Collection (Generational Collector): Reference counting alone can't handle "reference cycles" (circular references, where objects refer to each other in a loop but are otherwise unreachable). To address this, Python uses a generational garbage collector that periodically runs to detect and clean up these cycles. It divides objects into "generations" (new, older, oldest) and checks newer objects more frequently, as they are more likely to become garbage.
+
+
+Memory Pools (Pymalloc): For small objects (under 512 bytes), CPython (the standard interpreter) uses a specialized allocator called Pymalloc. Instead of making individual system calls for every tiny object, Pymalloc pre-allocates larger chunks of memory and manages them internally, making the allocation/deallocation of small objects much faster and reducing fragmentation.
+
+
+In essence, Python takes care of the memory details so you can focus on writing your code, making development more productive.
