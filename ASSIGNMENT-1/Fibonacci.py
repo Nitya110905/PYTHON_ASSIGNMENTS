@@ -1,3 +1,5 @@
+# Write a Python program to get the Fibonacci series of given 
+# range.
 term = int(input("Enter thr no. of terms you want in input : "))
 
 n1 , n2 = 0 , 1
