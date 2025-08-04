@@ -1,3 +1,9 @@
+# Write a Python program to find the first appearance of the 
+# substring 'not' and 'poor' from a given string, if 'not' follows the 
+# 'poor', replace the whole 'not'...'poor'substring with 'good'. 
+# Return the resulting string.
+
+
 def remove_not_poor(sentence):
     snot = sentence.find("not")
     spoor = sentence.find("poor")
