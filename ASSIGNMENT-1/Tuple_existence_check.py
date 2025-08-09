@@ -9,3 +9,5 @@ if exist in t:
     print(f"Yes {exist} exists in tuple {t}")
 else:
     print(f"No {exist}  doesn't exist in tuple {t}")
+
+print(len(t))
