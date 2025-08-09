@@ -1,0 +1,11 @@
+What is tuple? Difference between list and tuple. 
+
+-A tuple is an ordered, unchangeable (immutable) collection of items in Python. Once a tuple is created, you cannot add, remove, or change its elements. Tuples are created using parentheses ().
+
+
+Characteristic	        List	            Tuple
+Mutability	            Mutable: Elements can be changed, added, or removed after creation.	Immutable: Cannot be changed after creation. Offers data integrity.
+Syntax	Created with square brackets []. my_list = [1, 2, 3]	Created with parentheses (). my_tuple = (1, 2, 3)
+Performance	Slightly slower and uses more memory due to its dynamic nature.	Slightly faster and more memory-efficient as its size is fixed.
+Dictionary Keys	Cannot be used as dictionary keys because they are mutable.	Can be used as dictionary keys because they are immutable and hashable.
+Methods	Has many methods to modify the list, like .append(), .pop(), .remove().	Has fewer methods; mostly for counting and searching, like .count() and .index().
