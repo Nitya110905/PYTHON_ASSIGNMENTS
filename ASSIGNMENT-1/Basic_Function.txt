@@ -1,0 +1,4 @@
+How Many Basic Types Of Functions Are Available In Python? 
+How can you pick a random item from a list or tuple?
+
+- Python has two main types of functions: Built-in Functions and User-Defined Functions. To pick a random item from a list or tuple, you use the random.choice() function.
