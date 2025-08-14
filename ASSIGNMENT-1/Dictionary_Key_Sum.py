@@ -16,3 +16,15 @@ for key in d1:
             new_d [key] = (d1.get(key) + d2.get(key1))
 
 print(new_d)
+
+
+# A better Way!
+# d1 = {'a': 100, 'b': 200, 'c': 300}
+# d2 = {'a': 300, 'b': 200, 'd': 400}
+
+# new_d = d1.copy()
+
+# for key, value in d2.items():
+#     new_d[key] = new_d.get(key, 0) + value
+
+# print(new_d)

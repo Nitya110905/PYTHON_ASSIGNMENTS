@@ -6,4 +6,9 @@ d2 = {'d': 5, 'e': 4}
 
 new_d = d1 | d2
 
+#or
+# new_d = d1.update(d2)
+
+
+
 print(new_d)

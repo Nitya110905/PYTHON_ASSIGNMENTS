@@ -1,3 +1,3 @@
 Why Do You Use the Zip () Method in Python? 
 
-- Zip () Method is used for parallel iteration, creating Dictionaries , 
+- Zip () Method is used for parallel iteration, creating Dictionaries and for unzipping data.
