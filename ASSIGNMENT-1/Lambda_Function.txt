@@ -1,0 +1,16 @@
+# What is lambda function in python? What we call a function 
+# which is incomplete version of a function? 
+
+- A lambda function in Python is a small, anonymous function defined with the lambda keyword.
+
+- A function that is an "incomplete" version of another function, with some of its arguments pre-filled, is called a partial function.
+
+- A lambda function is a convenient way to create a simple, single-use function without formally defining it using def.
+
+=> Key Characteristics:
+
+- Anonymous: It has no name.
+
+- Single Expression: It can only contain one expression, which is evaluated and returned. It cannot contain multiple statements or commands.
+
+- Concise Syntax: The syntax is lambda arguments: expression.
