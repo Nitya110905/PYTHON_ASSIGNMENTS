@@ -1,0 +1,7 @@
+What is File function in python? What is keywords to create 
+and write file. 
+
+- > Mode	         Keyword	Description	                            Behavior
+    Write	            'w'	    Opens a file for writing.	            Creates the file if it does not exist. If it exists, its original contents are deleted (overwritten).
+    Append	            'a'	    Opens a file for writing.	            Creates the file if it does not exist. If it exists, new data is added to the end of the file.
+    Exclusive Creation	'x'	    Opens a file for exclusive creation.	Creates the file, but only if it does not already exist. If the file exists, the operation fails with an error.
