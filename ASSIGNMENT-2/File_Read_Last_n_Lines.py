@@ -16,6 +16,4 @@ def read_last_n_lines(file_path, n):
         print(f"Error: The file '{file_path}' was not found.")
 
 
-
-# 2. Now, call the function to read the last 3 lines of the file
 read_last_n_lines("sample_log.txt", 3)
