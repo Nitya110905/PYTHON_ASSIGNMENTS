@@ -9,8 +9,8 @@ class Rectangle:
         self.width = w
 
     def area(self):
-        area = self.length * self.width
-        print(f"Your Rectangle with length : {self.length} and width : {self.width} is {area}")
+        a = self.length * self.width
+        print(f"Your Rectangle with length : {self.length} and width : {self.width} is {a}")
 
 obj = Rectangle(10,20)
 obj.area()
