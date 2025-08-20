@@ -1,6 +1,6 @@
-# Write a Python class named Rectangle constructed by a length 
-# and width and a method which will compute the area of a 
-# rectangle 
+# Write a Python class named Circle constructed by a radius 
+# and two methods which will compute the area and the 
+# perimeter of a circle 
 
 
 import math
