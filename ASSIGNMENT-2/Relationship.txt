@@ -1,0 +1,3 @@
+What relationship is appropriate for Course and Faculty? What relationship is appropriate for Student and Person? 
+
+-> The relationship for Course and Faculty is Association (has-a relationship), while the relationship for Student and Person is Inheritance (is-a relationship).

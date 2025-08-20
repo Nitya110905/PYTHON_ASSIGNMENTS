@@ -1,0 +1,16 @@
+1. What is Instantiation in terms of OOP terminology? 
+
+-> Instantiation is the process of creating a specific, concrete object from a class.
+
+
+2. What is used to check whether an object o is an instance of class 
+A?
+
+-> Python's built-in function isinstance() is used to check whether an object is an instance of a particular class or any of its subclasses.
+
+Syntax:
+isinstance(object, classinfo)
+
+object: The object you want to check.
+
+classinfo: A class, a type, or a tuple of classes and types.

@@ -1,0 +1,6 @@
+What are oops concepts? Is multiple inheritance supported in 
+java ?
+
+-> Object-Oriented Programming (OOP) is a programming model that organizes software design around data, or objects, rather than functions and logic.
+
+-> No Java doesn't support Multiple Inheritance, but Python does.
